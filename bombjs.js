@@ -76,6 +76,7 @@ function StartNewGame() {
     } else if (!result) {
         gameResult.classList.remove("loser");
     }
+    bombCombination.textContent = "";
     TimerUpdate();
 }
 
@@ -100,7 +101,7 @@ function Randomize() {
 }
 
 function TimerUpdate() {
-    let sec = 101;
+    let sec = 1;
     interval = setInterval(function() {
         sec--;
         bombTimer.textContent = sec + "s";

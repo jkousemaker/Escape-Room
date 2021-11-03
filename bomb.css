@@ -87,6 +87,7 @@ html, body {
     color: rgba(255, 0, 0, 0.596);
     visibility: visible;
     top: 235px!important;
+    right: 0px!important;
 }
 
 .bomb-buttons {
