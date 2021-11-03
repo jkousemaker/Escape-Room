@@ -101,7 +101,7 @@ function Randomize() {
 }
 
 function TimerUpdate() {
-    let sec = 1;
+    let sec = 101;
     interval = setInterval(function() {
         sec--;
         bombTimer.textContent = sec + "s";
