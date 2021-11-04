@@ -36,6 +36,7 @@ for (let i = 0; i < buttons.length; i++){
     buttons[i].addEventListener('click', (e) => {
         //Checks if a game has been started
         if (game) {
+            inputAudio.currentTime = 0;
             inputAudio.play();
             //Switch case statement that checks how many numbers have been given and if the chosen number is correct.
             switch(counter) {
