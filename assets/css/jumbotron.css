@@ -1,0 +1,22 @@
+.jumbotron {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #60bec1;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.jumbotron > a {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.jumbotron > a:hover {
+    text-decoration: underline;
+}

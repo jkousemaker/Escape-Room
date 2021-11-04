@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bomb Defusal</title>
+
+    <link rel="stylesheet" href="assets/css/bomb.css">
+    <link rel="stylesheet" href="assets/css/jumbotron.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="jumbotron">
+            <a href="index.html">Justin's and Kenzo's Escape Room</a>
+        </div>
+        <section class="game">
+            <div class="new-button">
+                <button class="restart-button">Start New Game!</button>
+            </div>
+            <div class="bomb">
+                <div class="bomb-picture">
+                    <img src="bomb.png" alt="Bomb">
+                </div>
+                <div class="bomb-timer">
+                    <p>Good luck</p>
+                    <p class="timer"></p>
+                </div>
+                <div class="bomb-combination">
+                    <p class="combination"></p>
+                </div>
+                <p class="reduce"></p>
+                <p class="result"></p>
+                <div class="bomb-buttons">
+                    <button class="button">1</button>
+                    <button class="button">2</button>
+                    <button class="button">3</button>
+                    <button class="button">4</button>
+                    <button class="button">5</button>
+                    <button class="button">6</button>
+                    <button class="button">7</button>
+                    <button class="button">8</button>
+                    <button class="button">9</button>
+                    <button >*</button>
+                    <button class="button">0</button>
+                    <button >#</button>
+                </div>
+            </div>
+        </section>
+        <a href="snake.html" class="next-game">Continue</a>
+        <footer>
+            <p>Roc Mondriaan Tinwerf 2021</p>
+        </footer>
+    </div>
+    <audio class="planted">
+        <source src="assets/audio/planting.mp3" type="audio/mpeg">
+    </audio>
+    <audio class="input">
+        <source src="assets/audio/input.mp3" type="audio/mpeg">
+    </audio>
+    <audio class="defused">
+        <source src="assets/audio/defused.mp3" type="audio/mpeg">
+    </audio>
+    <audio class="ticks">
+        <source src="assets/audio/ticks.mp3" type="audio/mpeg">
+    </audio>
+    <audio class="explosion">
+        <source src="assets/audio/explosion.mp3" type="audio/mpeg">
+    </audio>
+</body>
+<script src="assets/js/bombjs.js"></script>
+</html>
