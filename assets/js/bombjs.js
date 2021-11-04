@@ -124,7 +124,7 @@ function Randomize() {
 
 //Updates the timer if new game has been started.
 function TimerUpdate() {
-    sec = 30;
+    sec = 221;
 
     //setInterval function that keeps on looping until there's either no time left or the player wins.
     interval = setInterval(function() {
