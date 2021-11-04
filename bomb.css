@@ -55,13 +55,25 @@ html, body {
     top: 63px;
     right: 120px;
     font-size: 21px;
-    color: rgba(245, 8, 8, 0.548);
+    font-weight: bold;
+    color: rgba(250, 68, 68, 0.541);
 }
 
 .bomb-combination {
     position: absolute;
     top: 87px;
     right: 119px;
+}
+
+.reduce {
+    position: absolute;
+    top: 57px;
+    right: 164px;
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
 }
 
 .result {
